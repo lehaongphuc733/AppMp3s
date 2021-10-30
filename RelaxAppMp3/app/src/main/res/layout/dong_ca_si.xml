@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/imgHinhcasi"/>
+    <TextView
+        android:layout_marginTop="7dp"
+        android:id="@+id/txtTencasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Tên ca sĩ"
+        android:textColor="#ffff"
+        android:layout_toRightOf="@+id/imgHinhcasi"/>
+
+    <TextView
+        android:layout_marginTop="7dp"
+        android:id="@+id/txtMota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mô tả"
+        android:textSize="24sp"
+        android:layout_toRightOf="@+id/imgHinhcasi"
+        android:layout_below="@+id/txtTencasi"
+        android:textColor="#ffff" />
+    <TextView
+        android:id="@+id/txtSoLuotThich"
+        android:layout_marginTop="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số lượng yêu thích"
+        android:layout_toRightOf="@+id/imgHinhcasi"
+        android:layout_below="@id/txtMota"
+        android:textColor="#ffff"
+        android:textSize="24sp"/>
+
+</RelativeLayout>

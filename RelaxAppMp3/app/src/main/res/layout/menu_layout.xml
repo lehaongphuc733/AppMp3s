@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:background="#ff0000"
+        android:layout_width="25sp"
+        android:layout_height="25sp"
+        android:id="@+id/imgMenuName"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Đây là hình tượng trưng"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:id="@+id/txtMenuName"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imgBHnoibat"
+        android:layout_toEndOf="@+id/imgBHnoibat" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    
+    <ImageView
+        android:paddingTop="7dp"
+        android:id="@+id/imgHinh"
+        android:layout_width="130dp"
+        android:layout_height="130dp" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"
+        android:textColor="#ffff"
+        android:text="Tên bài hát "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTenbaihat"
+        android:layout_toRightOf="@+id/imgHinh"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"
+        android:id="@+id/txtTencasi"
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên ca sĩ"
+        android:layout_toRightOf="@+id/imgHinh"
+        android:layout_below="@+id/txtTenbaihat"/>
+    <TextView
+        android:id="@+id/txtSoluotxem"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffff"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số lượt xem"
+        android:layout_toRightOf="@+id/imgHinh"
+        android:layout_below="@+id/txtTencasi"/>
+</RelativeLayout>
